@@ -13,8 +13,8 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     concurrent-ruby (1.1.6)
-    faker (1.8.7)
-      i18n (>= 0.7)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     minitest (5.14.2)
@@ -29,7 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  faker (< 1.8.8)
+  faker (~> 2.18)
   rake
   sqlite3
 
